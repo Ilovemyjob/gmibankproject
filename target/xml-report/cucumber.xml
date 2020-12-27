@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="127.821">
-    <testcase classname="Go to Customer" name="Verify SSN" time="19.238">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="118.097">
+    <testcase classname="Go to Customer" name="Verify SSN" time="17.286">
         <system-out><![CDATA[Given user click to login icon..............................................passed
 And user click link sign in.................................................passed
 And user enter username as  "team21user"....................................passed
@@ -14,7 +14,7 @@ And user click to searchButton on create new customer.......................pass
 Then Check FirstName should see textBox.....................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Go to Customer" name="Create new customer" time="21.449">
+    <testcase classname="Go to Customer" name="Create new customer" time="19.842">
         <system-out><![CDATA[Given user click to login icon..............................................passed
 And user click link sign in.................................................passed
 And user enter username as  "team21user"....................................passed
@@ -41,7 +41,7 @@ And select  account from customer form......................................pass
 Then click to save button into customer form................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Go to Customer" name="Data validation-address on create customer" time="18.751">
+    <testcase classname="Go to Customer" name="Data validation-address on create customer" time="15.695">
         <system-out><![CDATA[Given user click to login icon..............................................passed
 And user click link sign in.................................................passed
 And user enter username as  "team21user"....................................passed
@@ -54,7 +54,7 @@ Then click to save button into customer form................................pass
 And User should see an error message under address textbox "This field is required.".passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Go to Customer" name="Data validation-city on create customer" time="18.141">
+    <testcase classname="Go to Customer" name="Data validation-city on create customer" time="18.838">
         <system-out><![CDATA[Given user click to login icon..............................................passed
 And user click link sign in.................................................passed
 And user enter username as  "team21user"....................................passed
@@ -67,7 +67,7 @@ Then click to save button into customer form................................pass
 And User should see an error message under city textbox "This field is required.".passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Go to Customer" name="Data validation-country on create customer" time="22.827">
+    <testcase classname="Go to Customer" name="Data validation-country on create customer" time="24.096">
         <system-out><![CDATA[Given user click to login icon..............................................passed
 And user click link sign in.................................................passed
 And user enter username as  "team21user"....................................passed
@@ -95,7 +95,7 @@ Then click to save button into customer form................................pass
 Then user should be seen error message......................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Go to Customer" name="Data validation-state on create customer" time="26.393">
+    <testcase classname="Go to Customer" name="Data validation-state on create customer" time="21.45">
         <system-out><![CDATA[Given user click to login icon..............................................passed
 And user click link sign in.................................................passed
 And user enter username as  "team21user"....................................passed

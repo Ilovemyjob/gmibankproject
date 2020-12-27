@@ -12,8 +12,8 @@ Feature: US_26 System should allow to update countries using api end point
     Examples:
       | newCoutry | newCoutryID |
       | USA       | 22322       |
-      | USA       | 22324       |
-      | USA       | 22329       |
+      | USA   | 22324       |
+      | USA     | 22329       |
 
 
 #    "jdbc:postgresql://157.230.48.97:5432/gmibank_db" , "techprodb_user" and "Techpro_@126"
