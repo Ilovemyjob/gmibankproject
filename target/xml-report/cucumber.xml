@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
 <testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="15.099">
 <testcase classname="read all country data" name="_2" time="14.162">
 <system-out><![CDATA[Given user go to api end point "https://www.gmibank.com/api/tp-countries"...passed
@@ -6,4 +7,284 @@ And read all countries and write............................................pass
 Then validate countries.....................................................passed
 ]]></system-out>
 </testcase>
+
+
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="118.097">
+    <testcase classname="Go to Customer" name="Verify SSN" time="17.286">
+        <system-out><![CDATA[Given user click to login icon..............................................passed
+And user click link sign in.................................................passed
+And user enter username as  "team21user"....................................passed
+And user enter password as  "team21User"....................................passed
+And user click to sign in button............................................passed
+And user click to my operations link........................................passed
+And user clcik to manage customer...........................................passed
+And user click to button create new customer................................passed
+And user enter valid ssn....................................................passed
+And user click to searchButton on create new customer.......................passed
+Then Check FirstName should see textBox.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Go to Customer" name="Create new customer" time="19.842">
+        <system-out><![CDATA[Given user click to login icon..............................................passed
+And user click link sign in.................................................passed
+And user enter username as  "team21user"....................................passed
+And user enter password as  "team21User"....................................passed
+And user click to sign in button............................................passed
+And user click to my operations link........................................passed
+And user clcik to manage customer...........................................passed
+And user click to button create new customer................................passed
+And put  "Robert" into create firstname form................................passed
+And put "Sabin" into create lastname form...................................passed
+And put "R.S." into middle initial customer form............................passed
+And put "infor@gmail.com" into mail customer form...........................passed
+And put "412-123-4589" into mobile phoneNumber..............................passed
+And put "123-485-7889" into phonenumber customer form.......................passed
+And put "900180" into zibcode customer form.................................passed
+And put "izmir buca" into address customer form.............................passed
+And put "Sakarya" cityForm into create customer form........................passed
+And put "789-45-9523"into ssnForm customer form.............................passed
+And select date into customer form..........................................passed
+And select country from customer form.......................................passed
+And put "USA" into state customer form......................................passed
+And select user from customer form..........................................passed
+And select  account from customer form......................................passed
+Then click to save button into customer form................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Go to Customer" name="Data validation-address on create customer" time="15.695">
+        <system-out><![CDATA[Given user click to login icon..............................................passed
+And user click link sign in.................................................passed
+And user enter username as  "team21user"....................................passed
+And user enter password as  "team21User"....................................passed
+And user click to sign in button............................................passed
+And user click to my operations link........................................passed
+And user clcik to manage customer...........................................passed
+And user click to button create new customer................................passed
+Then click to save button into customer form................................passed
+And User should see an error message under address textbox "This field is required.".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Go to Customer" name="Data validation-city on create customer" time="18.838">
+        <system-out><![CDATA[Given user click to login icon..............................................passed
+And user click link sign in.................................................passed
+And user enter username as  "team21user"....................................passed
+And user enter password as  "team21User"....................................passed
+And user click to sign in button............................................passed
+And user click to my operations link........................................passed
+And user clcik to manage customer...........................................passed
+And user click to button create new customer................................passed
+Then click to save button into customer form................................passed
+And User should see an error message under city textbox "This field is required.".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Go to Customer" name="Data validation-country on create customer" time="24.096">
+        <system-out><![CDATA[Given user click to login icon..............................................passed
+And user click link sign in.................................................passed
+And user enter username as  "team21user"....................................passed
+And user enter password as  "team21User"....................................passed
+And user click to sign in button............................................passed
+And user click to my operations link........................................passed
+And user clcik to manage customer...........................................passed
+And user click to button create new customer................................passed
+And put  "Robert" into create firstname form................................passed
+And put "Sabin" into create lastname form...................................passed
+And put "R.S." into middle initial customer form............................passed
+And put "infor@gmail.com" into mail customer form...........................passed
+And put "412-123-4589" into mobile phoneNumber..............................passed
+And put "123-485-7889" into phonenumber customer form.......................passed
+And put "900180" into zibcode customer form.................................passed
+And put "izmir buca" into address customer form.............................passed
+And put "Sakarya" cityForm into create customer form........................passed
+And put "789-45-9523"into ssnForm customer form.............................passed
+And select date into customer form..........................................passed
+And select country from customer form index "0".............................passed
+And put "USA" into state customer form......................................passed
+And select user from customer form..........................................passed
+And select  account from customer form......................................passed
+Then click to save button into customer form................................passed
+Then user should be seen error message......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Go to Customer" name="Data validation-state on create customer" time="21.45">
+        <system-out><![CDATA[Given user click to login icon..............................................passed
+And user click link sign in.................................................passed
+And user enter username as  "team21user"....................................passed
+And user enter password as  "team21User"....................................passed
+And user click to sign in button............................................passed
+And user click to my operations link........................................passed
+And user clcik to manage customer...........................................passed
+And user click to button create new customer................................passed
+And put  "Robert" into create firstname form................................passed
+And put "Sabin" into create lastname form...................................passed
+And put "R.S." into middle initial customer form............................passed
+And put "infor@gmail.com" into mail customer form...........................passed
+And put "412-123-4589" into mobile phoneNumber..............................passed
+And put "123-485-7889" into phonenumber customer form.......................passed
+And put "900180" into zibcode customer form.................................passed
+And put "izmir buca" into address customer form.............................passed
+And put "Sakarya" cityForm into create customer form........................passed
+And put "789-45-9523"into ssnForm customer form.............................passed
+And select date into customer form..........................................passed
+And select country from customer form index "0".............................passed
+And leave blank into state customer form....................................passed
+And select user from customer form..........................................passed
+And select  account from customer form......................................passed
+Then click to save button into customer form................................passed
+Then user should be seen error message......................................passed
+
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="25.982">
+<testcase classname="Password Strength" name="Edit Password" time="24.327">
+<failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[Given user is on the home page..............................................passed
+And sign in as "user".......................................................passed
+And Click on user icon and click on Password................................passed
+And Enter "team21User" to the current password textbox......................passed
+Given Enter "team21User" to the New password textbox........................passed
+And Enter "team21User" to the New confirmation password textbox.............passed
+And Click on the save button................................................passed
+Then There should be a Error Message........................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at gmibank.stepdefinitions.PasswordChange.there_should_be_a_Error_Message(PasswordChange.java:52)
+	at ✽.There should be a Error Message(file:///C:/Users/user/IdeaProjects/gmibankproject/src/test/resources/features/PasswordChange.feature:13)
+]]></failure>
+</testcase>
+
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="136.042">
+<testcase classname="Go to Registration Page" name="TC_0001 User type to New Password_There should be at least 1 uppercase char" time="22.701">
+<system-out><![CDATA[Given user got to GMI Bank homepage.........................................passed
+Given user click to dropdown button.........................................passed
+Then user click to register button..........................................passed
+And user click to New Password button.......................................passed
+Then user type New "<Aaaaaaa>"..............................................passed
+Then check the bar level....................................................passed
+Then verify level...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Go to Registration Page" name="TC_0001 User type to New Password_There should be at least 1 uppercase char 2" time="16.091">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given user got to GMI Bank homepage.........................................passed
+Given user click to dropdown button.........................................passed
+Then user click to register button..........................................passed
+And user click to New Password button.......................................passed
+Then user type New "<Aaaa>".................................................passed
+Then check the bar level....................................................passed
+Then verify level...........................................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at gmibank.stepdefinitions.US_003_Registration_Password_sd.verify_level(US_003_Registration_Password_sd.java:82)
+	at ✽.verify level(file:///C:/Users/Administrator/IdeaProjects/gmibankproject/src/test/resources/features/US_003_Registration_Password.feature:15)
+]]></failure>
+</testcase>
+<testcase classname="Go to Registration Page" name="TC_0002 User type to New Password_There should be at least 1 lowercase char" time="17.897">
+<system-out><![CDATA[Given user got to GMI Bank homepage.........................................passed
+Given user click to dropdown button.........................................passed
+Then user click to register button..........................................passed
+And user click to New Password button.......................................passed
+Then user type New "<aAAAAAA>"..............................................passed
+Then check the bar level....................................................passed
+Then verify level...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Go to Registration Page" name="TC_0003 User type to New Password_There should be at least 1 digit" time="12.684">
+<system-out><![CDATA[Given user got to GMI Bank homepage.........................................passed
+Given user click to dropdown button.........................................passed
+Then user click to register button..........................................passed
+And user click to New Password button.......................................passed
+Then user type New "<1aaaaaa>"..............................................passed
+Then check the bar level....................................................passed
+Then verify level...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Go to Registration Page" name="TC_0004 User type to New Password_There should be  at least 1 special char" time="14.662">
+<system-out><![CDATA[Given user got to GMI Bank homepage.........................................passed
+Given user click to dropdown button.........................................passed
+Then user click to register button..........................................passed
+And user click to New Password button.......................................passed
+Then user type New "<.aaaaaa>"..............................................passed
+Then check the bar level....................................................passed
+Then verify level...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Go to Registration Page" name="TC_0005 User type to New Password_There should be at least 7 chars" time="11.65">
+<system-out><![CDATA[Given user got to GMI Bank homepage.........................................passed
+Given user click to dropdown button.........................................passed
+Then user click to register button..........................................passed
+And user click to New Password button.......................................passed
+Then user type New "Aaaaaaa"................................................passed
+Then check the bar level....................................................passed
+Then verify level...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Go to Registration Page" name="TC_0005 User type to New Password_There should be at least 7 chars 2" time="11.782">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given user got to GMI Bank homepage.........................................passed
+Given user click to dropdown button.........................................passed
+Then user click to register button..........................................passed
+And user click to New Password button.......................................passed
+Then user type New "Aaaa12".................................................passed
+Then check the bar level....................................................passed
+Then verify level...........................................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at gmibank.stepdefinitions.US_003_Registration_Password_sd.verify_level(US_003_Registration_Password_sd.java:82)
+	at ✽.verify level(file:///C:/Users/Administrator/IdeaProjects/gmibankproject/src/test/resources/features/US_003_Registration_Password.feature:70)
+]]></failure>
+</testcase>
+<testcase classname="go to Registration Page" name="TC_0001 User should see all account types and balace populated" time="13.457">
+<system-out><![CDATA[Given user got to GMI Bank homepage.........................................passed
+And user click to dropdown button...........................................passed
+Then user click to Sign in button...........................................passed
+And user click User name button.............................................passed
+And user type Username "team21customer".....................................passed
+And user click to Password..................................................passed
+And user type Password "team21Customer".....................................passed
+Then user click Sign in.....................................................passed
+Then user click My Operation button.........................................passed
+Then user click Manage Accounts button......................................passed
+Then check all account types................................................passed
+Then check all balance......................................................passed
+
+]]></system-out>
+</testcase>
+<testcase classname="go to Registration Page" name="TC_0002 User can view transaction" time="13.009">
+<system-out><![CDATA[Given user got to GMI Bank homepage.........................................passed
+And user click to dropdown button...........................................passed
+Then user click to Sign in button...........................................passed
+And user click User name button.............................................passed
+And user type Username "team21customer".....................................passed
+And user click to Password..................................................passed
+And user type Password "team21Customer".....................................passed
+Then user click Sign in.....................................................passed
+Then user click My Operation button.........................................passed
+Then user click Manage Accounts button......................................passed
+Then user view transaction..................................................passed
+
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="21.234">
+<testcase classname="Go to homepage" name="TC_001-007 User type several informations" time="19.954">
+<system-out><![CDATA[Given user got to GMI Bank homepage.........................................passed
+And user clik to register box...............................................passed
+And user clik to register button............................................passed
+And user clik to SSn number box and send "454-42-1223"......................passed
+And user click to first name box and send "Hans"............................passed
+And user click to last name box and send "Kern".............................passed
+And user click to address box and send "Ernst Straße 2, 17299 Hamburg"......passed
+And user click to mobile phone number box and send "404-421-2236"...........passed
+And user click to username box and send "hanskern1234"......................passed
+Then user click to email box and send "hanskern@fakemail.com"...............passed
+
+]]></system-out>
+</testcase>
+
+
 </testsuite>
