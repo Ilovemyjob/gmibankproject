@@ -10,11 +10,11 @@ import gmibank.utilities.ConfigReader;
 public class LoginStepsDefinitions {
     WebDriver driver;
     LoginPage loginPage = new LoginPage();
-    @Given("user click to login icon")
-    public void userClickToLoginIcon() {
-        Driver.getDriver().get(ConfigReader.getProperty("gmiBank_url"));
-        loginPage.login_icon.click();
-    }
+   // @Given("user click to login icon")
+   // public void userClickToLoginIcon() {
+        //Driver.getDriver().get(ConfigReader.getProperty("gmiBank_url"));
+      //  loginPage.login_icon.click();
+   // }
 
     @And("user click link sign in")
     public void userClickLinkSignIn() {

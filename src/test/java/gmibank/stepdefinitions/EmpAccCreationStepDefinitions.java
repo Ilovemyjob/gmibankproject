@@ -30,7 +30,7 @@ public class EmpAccCreationStepDefinitions {
     }
 
     @Given("user click to login icon")
-    public void user_clik_to_login_icon() {
+    public void user_cliks_to_login_icon() {
         loginPage.login_icon.click();
     }
 
@@ -49,8 +49,8 @@ public class EmpAccCreationStepDefinitions {
         Driver.waitAndSendText(loginPage.txt_password, password, 5);
     }
 
-    @Given("user click to Sign in button")
-    public void user_click_to_Sign_in_button() {
+    @Given("user clicks to Sign in button")
+    public void user_clicks_to_Sign_in_button() {
         empAccCreationPage.submit.click();
     }
 

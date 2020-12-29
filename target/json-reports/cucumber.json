@@ -1,6 +1,12 @@
 [
   {
 
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-26T14:19:28.182Z",
+=======
+
 
     "line": 3,
     "elements": [
@@ -2116,6 +2122,7 @@
 =======
         "start_timestamp": "2020-12-13T16:06:28.734Z",
 
+
         "before": [
           {
             "result": {
@@ -2127,17 +2134,21 @@
             }
           }
         ],
-        "line": 15,
-        "name": "TC_0001 User should see all account types and balace populated",
+        "line": 3,
+        "name": "",
         "description": "",
-        "id": "go-to-registration-page;tc-0001-user-should-see-all-account-types-and-balace-populated",
+        "id": "read-all-country-data;",
         "after": [
           {
             "result": {
 
+              "duration": 8988000000,
+=======
+
               "duration": 497921500,
 =======
               "duration": 2241000000,
+
 
               "status": "passed"
             },
@@ -2151,6 +2162,13 @@
         "steps": [
           {
             "result": {
+
+              "duration": 4509000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user go to api end point \"https://www.gmibank.com/api/tp-countries\"",
+=======
 
               "duration": 454665100,
 =======
@@ -2288,13 +2306,17 @@
             },
             "line": 8,
             "name": "user type Username \"team21customer\"",
+
             "match": {
               "arguments": [
                 {
-                  "val": "\"team21customer\"",
-                  "offset": 19
+                  "val": "\"https://www.gmibank.com/api/tp-countries\"",
+                  "offset": 25
                 }
               ],
+
+              "location": "gmibank.stepdefinitions.US_021_Read_All_Countries.user_go_to_api_end_point(java.lang.String)"
+=======
               "location": "gmibank.stepdefinitions.US_015_Manege_Account_sd.user_type_Username(java.lang.String)"
             },
             "keyword": "And "
@@ -2312,33 +2334,35 @@
             "name": "user click to Password",
             "match": {
               "location": "gmibank.stepdefinitions.US_015_Manege_Account_sd.user_click_to_Password()"
+
             },
-            "keyword": "And "
+            "keyword": "Given "
           },
           {
             "result": {
+
+              "duration": 507000000,
+=======
 
               "duration": 319949100,
 =======
               "duration": 300000000,
 
+
               "status": "passed"
             },
-            "line": 10,
-            "name": "user type Password \"team21Customer\"",
+            "line": 5,
+            "name": "read all countries and write",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"team21Customer\"",
-                  "offset": 19
-                }
-              ],
-              "location": "gmibank.stepdefinitions.US_015_Manege_Account_sd.user_type_Password(java.lang.String)"
+              "location": "gmibank.stepdefinitions.US_021_Read_All_Countries.read_all_countries_and_write()"
             },
             "keyword": "And "
           },
           {
             "result": {
+
+              "duration": 17000000,
+=======
 
               "duration": 312952100,
 =======
@@ -2450,11 +2474,15 @@
 =======
               "duration": 222000000,
 
+
               "status": "passed"
             },
-            "line": 15,
-            "name": "user click to email box and send \"hanskern@fakemail.com\"",
+            "line": 6,
+            "name": "validate countries",
             "match": {
+
+              "location": "gmibank.stepdefinitions.US_021_Read_All_Countries.validate_countries()"
+=======
               "arguments": [
                 {
                   "val": "\"hanskern@fakemail.com\"",
@@ -2463,17 +2491,21 @@
               ],
               "location": "gmibank.stepdefinitions.RegistrationStepdefinition.user_click_to_email_box_and_send(java.lang.String)"
 
+
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@registrationpage"
+            "name": "@country"
           }
         ]
       }
     ],
+
+    "name": "read all country data",
+=======
 
     "name": "go to Registration Page",
     "description": "",
@@ -2482,14 +2514,22 @@
     "uri": "file:src/test/resources/features/US_015_Manage_Account.feature",
 
     "name": "Go to homepage",
+
     "description": "",
-    "id": "go-to-homepage",
+    "id": "read-all-country-data",
     "keyword": "Feature",
+
+    "uri": "file:src/test/resources/features/US_021_Read_All_Countries.feature",
+    "tags": [
+      {
+        "name": "@country",
+=======
     "uri": "file:src/test/resources/features/registration.feature",
 
     "tags": [
       {
         "name": "@registrationpage",
+
 
         "type": "Tag",
         "location": {

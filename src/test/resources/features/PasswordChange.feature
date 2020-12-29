@@ -1,4 +1,4 @@
-@PasswordStrength
+@PasswordStrength1
 Feature: Password Strength
   Background: Entrance of the page
     Given user is on the home page

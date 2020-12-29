@@ -33,4 +33,8 @@ public class Country {
     public void setStates(String states) {
         this.states = states;
     }
+
 }
+
+}
+

@@ -85,4 +85,8 @@ public class User {
     public void setResetDate(String resetDate) {
         this.resetDate = resetDate;
     }
+
 }
+
+}
+

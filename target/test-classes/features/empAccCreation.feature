@@ -6,7 +6,7 @@
       And user click to Sign in
       And user click to Username box and send "team21employee"
       And user click to Password box and send "team21Employee"
-      And user click to Sign in button
+      And user clicks to Sign in button
       And user click to My Operations button
       And user click to Manage Accounts button
       And user click to Create New Account button

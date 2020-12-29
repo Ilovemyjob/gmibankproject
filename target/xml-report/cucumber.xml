@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="15.099">
+<testcase classname="read all country data" name="_2" time="14.162">
+<system-out><![CDATA[Given user go to api end point "https://www.gmibank.com/api/tp-countries"...passed
+And read all countries and write............................................passed
+Then validate countries.....................................................passed
+]]></system-out>
+</testcase>
+
+
 <testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="118.097">
     <testcase classname="Go to Customer" name="Verify SSN" time="17.286">
         <system-out><![CDATA[Given user click to login icon..............................................passed
@@ -276,5 +285,6 @@ Then user click to email box and send "hanskern@fakemail.com"...............pass
 
 ]]></system-out>
 </testcase>
+
 
 </testsuite>
