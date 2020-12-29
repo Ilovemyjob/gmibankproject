@@ -1,5 +1,128 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<<<<<<< HEAD
+
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="118.097">
+    <testcase classname="Go to Customer" name="Verify SSN" time="17.286">
+        <system-out><![CDATA[Given user click to login icon..............................................passed
+And user click link sign in.................................................passed
+And user enter username as  "team21user"....................................passed
+And user enter password as  "team21User"....................................passed
+And user click to sign in button............................................passed
+And user click to my operations link........................................passed
+And user clcik to manage customer...........................................passed
+And user click to button create new customer................................passed
+And user enter valid ssn....................................................passed
+And user click to searchButton on create new customer.......................passed
+Then Check FirstName should see textBox.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Go to Customer" name="Create new customer" time="19.842">
+        <system-out><![CDATA[Given user click to login icon..............................................passed
+And user click link sign in.................................................passed
+And user enter username as  "team21user"....................................passed
+And user enter password as  "team21User"....................................passed
+And user click to sign in button............................................passed
+And user click to my operations link........................................passed
+And user clcik to manage customer...........................................passed
+And user click to button create new customer................................passed
+And put  "Robert" into create firstname form................................passed
+And put "Sabin" into create lastname form...................................passed
+And put "R.S." into middle initial customer form............................passed
+And put "infor@gmail.com" into mail customer form...........................passed
+And put "412-123-4589" into mobile phoneNumber..............................passed
+And put "123-485-7889" into phonenumber customer form.......................passed
+And put "900180" into zibcode customer form.................................passed
+And put "izmir buca" into address customer form.............................passed
+And put "Sakarya" cityForm into create customer form........................passed
+And put "789-45-9523"into ssnForm customer form.............................passed
+And select date into customer form..........................................passed
+And select country from customer form.......................................passed
+And put "USA" into state customer form......................................passed
+And select user from customer form..........................................passed
+And select  account from customer form......................................passed
+Then click to save button into customer form................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Go to Customer" name="Data validation-address on create customer" time="15.695">
+        <system-out><![CDATA[Given user click to login icon..............................................passed
+And user click link sign in.................................................passed
+And user enter username as  "team21user"....................................passed
+And user enter password as  "team21User"....................................passed
+And user click to sign in button............................................passed
+And user click to my operations link........................................passed
+And user clcik to manage customer...........................................passed
+And user click to button create new customer................................passed
+Then click to save button into customer form................................passed
+And User should see an error message under address textbox "This field is required.".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Go to Customer" name="Data validation-city on create customer" time="18.838">
+        <system-out><![CDATA[Given user click to login icon..............................................passed
+And user click link sign in.................................................passed
+And user enter username as  "team21user"....................................passed
+And user enter password as  "team21User"....................................passed
+And user click to sign in button............................................passed
+And user click to my operations link........................................passed
+And user clcik to manage customer...........................................passed
+And user click to button create new customer................................passed
+Then click to save button into customer form................................passed
+And User should see an error message under city textbox "This field is required.".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Go to Customer" name="Data validation-country on create customer" time="24.096">
+        <system-out><![CDATA[Given user click to login icon..............................................passed
+And user click link sign in.................................................passed
+And user enter username as  "team21user"....................................passed
+And user enter password as  "team21User"....................................passed
+And user click to sign in button............................................passed
+And user click to my operations link........................................passed
+And user clcik to manage customer...........................................passed
+And user click to button create new customer................................passed
+And put  "Robert" into create firstname form................................passed
+And put "Sabin" into create lastname form...................................passed
+And put "R.S." into middle initial customer form............................passed
+And put "infor@gmail.com" into mail customer form...........................passed
+And put "412-123-4589" into mobile phoneNumber..............................passed
+And put "123-485-7889" into phonenumber customer form.......................passed
+And put "900180" into zibcode customer form.................................passed
+And put "izmir buca" into address customer form.............................passed
+And put "Sakarya" cityForm into create customer form........................passed
+And put "789-45-9523"into ssnForm customer form.............................passed
+And select date into customer form..........................................passed
+And select country from customer form index "0".............................passed
+And put "USA" into state customer form......................................passed
+And select user from customer form..........................................passed
+And select  account from customer form......................................passed
+Then click to save button into customer form................................passed
+Then user should be seen error message......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Go to Customer" name="Data validation-state on create customer" time="21.45">
+        <system-out><![CDATA[Given user click to login icon..............................................passed
+And user click link sign in.................................................passed
+And user enter username as  "team21user"....................................passed
+And user enter password as  "team21User"....................................passed
+And user click to sign in button............................................passed
+And user click to my operations link........................................passed
+And user clcik to manage customer...........................................passed
+And user click to button create new customer................................passed
+And put  "Robert" into create firstname form................................passed
+And put "Sabin" into create lastname form...................................passed
+And put "R.S." into middle initial customer form............................passed
+And put "infor@gmail.com" into mail customer form...........................passed
+And put "412-123-4589" into mobile phoneNumber..............................passed
+And put "123-485-7889" into phonenumber customer form.......................passed
+And put "900180" into zibcode customer form.................................passed
+And put "izmir buca" into address customer form.............................passed
+And put "Sakarya" cityForm into create customer form........................passed
+And put "789-45-9523"into ssnForm customer form.............................passed
+And select date into customer form..........................................passed
+And select country from customer form index "0".............................passed
+And leave blank into state customer form....................................passed
+And select user from customer form..........................................passed
+And select  account from customer form......................................passed
+Then click to save button into customer form................................passed
+Then user should be seen error message......................................passed
+
 <testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="25.982">
 <testcase classname="Password Strength" name="Edit Password" time="24.327">
 <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[Given user is on the home page..............................................passed
@@ -21,8 +144,7 @@ java.lang.AssertionError: expected [true] but found [false]
 	at ✽.There should be a Error Message(file:///C:/Users/user/IdeaProjects/gmibankproject/src/test/resources/features/PasswordChange.feature:13)
 ]]></failure>
 </testcase>
-=======
-<<<<<<< HEAD
+
 <testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="136.042">
 <testcase classname="Go to Registration Page" name="TC_0001 User type to New Password_There should be at least 1 uppercase char" time="22.701">
 <system-out><![CDATA[Given user got to GMI Bank homepage.........................................passed
@@ -123,6 +245,7 @@ Then user click My Operation button.........................................pass
 Then user click Manage Accounts button......................................passed
 Then check all account types................................................passed
 Then check all balance......................................................passed
+
 ]]></system-out>
 </testcase>
 <testcase classname="go to Registration Page" name="TC_0002 User can view transaction" time="13.009">
@@ -137,7 +260,7 @@ Then user click Sign in.....................................................pass
 Then user click My Operation button.........................................passed
 Then user click Manage Accounts button......................................passed
 Then user view transaction..................................................passed
-=======
+
 <testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="21.234">
 <testcase classname="Go to homepage" name="TC_001-007 User type several informations" time="19.954">
 <system-out><![CDATA[Given user got to GMI Bank homepage.........................................passed
@@ -150,8 +273,8 @@ And user click to address box and send "Ernst Straße 2, 17299 Hamburg"......pas
 And user click to mobile phone number box and send "404-421-2236"...........passed
 And user click to username box and send "hanskern1234"......................passed
 Then user click to email box and send "hanskern@fakemail.com"...............passed
->>>>>>> master
+
 ]]></system-out>
 </testcase>
->>>>>>> master
+
 </testsuite>
