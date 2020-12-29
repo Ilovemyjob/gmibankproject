@@ -1,7 +1,7 @@
 
 Feature: Go to homepage
     Background: User go to GMI Bank homepage
-        Given user got to GMI Bank homepage
+        Given user go to GMI Bank homepage
 
         Scenario: TC_0001 User type to SSN number
             Given user clik to dropdown button

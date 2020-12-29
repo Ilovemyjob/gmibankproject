@@ -1,7 +1,20 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+@gmihomepage
+<<<<<<< HEAD
+=======
+Feature: Go to homepage
+    Background: User go to GMI Bank homepage
+        Given user go to GMI Bank homepage
+>>>>>>> Emrullah
+=======
+=======
+>>>>>>> refs/remotes/origin/master
 
 Feature: Go to homepage
     Background: User go to GMI Bank homepage
         Given user got to GMI Bank homepage
+>>>>>>> master
 
         Scenario: TC_0001 User type to SSN number
             Given user clik to dropdown button

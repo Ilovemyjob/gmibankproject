@@ -1,4 +1,16 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+@registrationpage
+=======
+<<<<<<< HEAD
 
+=======
+@registrationpage
+>>>>>>> master
+>>>>>>> master
+=======
+
+>>>>>>> refs/remotes/origin/master
 Feature: Go to homepage
     Background: User go to GMI Bank homepage
         Given user got to GMI Bank homepage
@@ -6,7 +18,19 @@ Feature: Go to homepage
         Scenario: TC_001-007 User type several informations
             And user clik to register box
             And user clik to register button
+<<<<<<< HEAD
+<<<<<<< HEAD
+            And user clik to SSn number box and send "454-42-12230"
+=======
+<<<<<<< HEAD
+            And user clik to SSn number box and send "454-42-12230"
+=======
             And user clik to SSn number box and send "454-42-1223"
+>>>>>>> master
+>>>>>>> master
+=======
+            And user clik to SSn number box and send "454-42-1223"
+>>>>>>> refs/remotes/origin/master
             And user click to first name box and send "Hans"
             And user click to last name box and send "Kern"
             And user click to address box and send "Ernst Straße 2, 17299 Hamburg"
