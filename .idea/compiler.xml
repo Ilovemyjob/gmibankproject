@@ -9,6 +9,7 @@
         <module name="gmibankproject1" />
         <module name="GmiBankFramework_Team21" />
         <module name="GmiBankFramework" />
+        <module name="gmibankproject" />
       </profile>
     </annotationProcessing>
   </component>
