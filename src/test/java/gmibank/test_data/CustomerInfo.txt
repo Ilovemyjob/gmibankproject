@@ -1,0 +1,54 @@
+458-62-6584,sdf,42665,NewCity,as@sdf.com,US11,Team13,m,123-322-1234,123-123-4567,,NewCity,false,
+gmibank.pojos.User@3e598df9
+612-15-5726,071 Barry Hills, Prohaskachester, WV 59360,55697,fairfax,candance.bernier@hotmail.con,001customer,team15,na,908-279-4708,000-000-0000,maryland,20123,true,maryland
+gmibank.pojos.Country@7e31ce0f
+450-56-4994,I live in St louis MO,42687,St Louis,com.github.javafaker.Name@2c05ff9d@gmail.com,Frederick,Williamson,Davina Russel Pollich,548-779-7096,264-723-4959,,67321,false,
+186-48-4946,I live in St louis MO,42688,St Louis,com.github.javafaker.Name@5d08976a@gmail.com,Reanna,Grady,Wally Murazik Wiza,401-652-5134,272-817-1549,,67321,false,
+439-12-4312,49 Elly,33880,zxczc,al@wl.com,Ally,Wlley,m,123-322-1234,123-132-1234,,25000,false,
+gmibank.pojos.User@99a65d3
+234-55-8998,45534,36502,55443,07-12-20-15-17@US013.com,jack,dsfdf,d,333-345-8862,333-345-8863,,45534,false,
+gmibank.pojos.User@3088660d
+511-18-8543,I live in St louis MO,42690,St Louis,com.github.javafaker.Name@5d08976a@gmail.com,Andrew,Kozey,Natalia Kuhlman Glover,318-179-4474,557-438-2314,,67321,false,
+333-34-2395,I live in St louis MO,42692,St Louis,com.github.javafaker.Name@7c011174@gmail.com,Mariana,Tillman,Nita Bogan Greenholt,492-298-9909,874-503-5229,,67321,false,
+473-22-1798,I live in St louis MO,42697,St Louis,com.github.javafaker.Name@7c011174@gmail.com,Ali,Deckow,Leroy Hoeger Sipes,115-471-7051,876-394-6968,,67321,false,
+123-12-1234,Test mahallesi Test caddesi Test sokak no:5,33854,fghj,omeraydiin29@gmail.com,Pehlivan,Yenilmez,sdfg,555-123-1234,416-822-2222,fghgf,2345678765,false,fghgf
+gmibank.pojos.Country@42cc13a0
+gmibank.pojos.User@32fdec40
+244-56-7748,77434,35128,77443,07-12-20-13-54@US012.com,Us,0113,S3,234-345-4563,234-345-4563,,77434,false,
+355-88-2318,Apt. 461 644 Hyatt Lane, Schowalterborough, KS 67042-7080,50865,Jeanberg,christopher.zulauf@example.com,Jacqueline,Emmerich,O,206-969-1243,165-048-3654,,75632,false,
+821-84-3971,Apt. 391 572 Rodrick Mountains, Port Myungfurt, KY 22925-3615,50866,Greenholttown,hugo.schneider@example.com,Wendell,Trantow,T,047-152-6952,542-396-7766,,63622-1699,false,
+108-53-6655,I live in St louis MO,43703,St Louis,com.github.javafaker.Name@7c011174@gmail.com,Alda,Monahan,Nichelle Hermann Kohler,909-162-8114,231-501-9849,,67321,false,
+224-71-4004,I live in St louis MO,43707,St Louis,com.github.javafaker.Name@7c011174@gmail.com,Ariel,Lockman,Kyla Jacobson Leannon I,539-783-3603,277-718-1185,,67321,false,
+194-21-8830,izmir buca,43709,Sakarya,infor@gmail.com,Robert,Sabin,M,412-123-4589,123-485-7889,USA,900180,true,USA
+gmibank.pojos.Country@6813a331
+498-53-5576,I live in St louis MO,43712,St Louis,com.github.javafaker.Name@7c011174@gmail.com,Everette,Dietrich,Paul Leffler Hirthe,853-190-1383,145-502-8220,,67321,false,
+234-22-8998,22534,36504,22443,07-12-20-15-18@US013.com,angelina,ma,d,223-345-8862,223-345-8863,,22534,false,
+234-11-8998,22534,36505,22443,07-12-20-15-20@US013.com,alina,m1,d,213-345-8862,223-345-1863,,22534,true,
+777-23-7777,incirli,33892,canakkale,denizmavi1@yahoo.com,deniz,mavi,dm,345-789-7890,234-789-7868,,12567,true,
+458-62-6584,sdf,42665,NewCity,as@sdf.com,US11,Team13,m,123-322-1234,123-123-4567,,NewCity,false,
+gmibank.pojos.User@3088660d
+612-15-5726,071 Barry Hills, Prohaskachester, WV 59360,55697,fairfax,candance.bernier@hotmail.con,001customer,team15,na,908-279-4708,000-000-0000,maryland,20123,true,maryland
+gmibank.pojos.Country@42cc13a0
+450-56-4994,I live in St louis MO,42687,St Louis,com.github.javafaker.Name@2c05ff9d@gmail.com,Frederick,Williamson,Davina Russel Pollich,548-779-7096,264-723-4959,,67321,false,
+186-48-4946,I live in St louis MO,42688,St Louis,com.github.javafaker.Name@5d08976a@gmail.com,Reanna,Grady,Wally Murazik Wiza,401-652-5134,272-817-1549,,67321,false,
+439-12-4312,49 Elly,33880,zxczc,al@wl.com,Ally,Wlley,m,123-322-1234,123-132-1234,,25000,false,
+gmibank.pojos.User@32fdec40
+234-55-8998,45534,36502,55443,07-12-20-15-17@US013.com,jack,dsfdf,d,333-345-8862,333-345-8863,,45534,false,
+gmibank.pojos.User@6813a331
+511-18-8543,I live in St louis MO,42690,St Louis,com.github.javafaker.Name@5d08976a@gmail.com,Andrew,Kozey,Natalia Kuhlman Glover,318-179-4474,557-438-2314,,67321,false,
+333-34-2395,I live in St louis MO,42692,St Louis,com.github.javafaker.Name@7c011174@gmail.com,Mariana,Tillman,Nita Bogan Greenholt,492-298-9909,874-503-5229,,67321,false,
+473-22-1798,I live in St louis MO,42697,St Louis,com.github.javafaker.Name@7c011174@gmail.com,Ali,Deckow,Leroy Hoeger Sipes,115-471-7051,876-394-6968,,67321,false,
+123-12-1234,Test mahallesi Test caddesi Test sokak no:5,33854,fghj,omeraydiin29@gmail.com,Pehlivan,Yenilmez,sdfg,555-123-1234,416-822-2222,fghgf,2345678765,false,fghgf
+gmibank.pojos.Country@1bd81830
+gmibank.pojos.User@39ab59f8
+244-56-7748,77434,35128,77443,07-12-20-13-54@US012.com,Us,0113,S3,234-345-4563,234-345-4563,,77434,false,
+355-88-2318,Apt. 461 644 Hyatt Lane, Schowalterborough, KS 67042-7080,50865,Jeanberg,christopher.zulauf@example.com,Jacqueline,Emmerich,O,206-969-1243,165-048-3654,,75632,false,
+821-84-3971,Apt. 391 572 Rodrick Mountains, Port Myungfurt, KY 22925-3615,50866,Greenholttown,hugo.schneider@example.com,Wendell,Trantow,T,047-152-6952,542-396-7766,,63622-1699,false,
+108-53-6655,I live in St louis MO,43703,St Louis,com.github.javafaker.Name@7c011174@gmail.com,Alda,Monahan,Nichelle Hermann Kohler,909-162-8114,231-501-9849,,67321,false,
+224-71-4004,I live in St louis MO,43707,St Louis,com.github.javafaker.Name@7c011174@gmail.com,Ariel,Lockman,Kyla Jacobson Leannon I,539-783-3603,277-718-1185,,67321,false,
+194-21-8830,izmir buca,43709,Sakarya,infor@gmail.com,Robert,Sabin,M,412-123-4589,123-485-7889,USA,900180,true,USA
+gmibank.pojos.Country@64e92d61
+498-53-5576,I live in St louis MO,43712,St Louis,com.github.javafaker.Name@7c011174@gmail.com,Everette,Dietrich,Paul Leffler Hirthe,853-190-1383,145-502-8220,,67321,false,
+234-22-8998,22534,36504,22443,07-12-20-15-18@US013.com,angelina,ma,d,223-345-8862,223-345-8863,,22534,false,
+234-11-8998,22534,36505,22443,07-12-20-15-20@US013.com,alina,m1,d,213-345-8862,223-345-1863,,22534,true,
+777-23-7777,incirli,33892,canakkale,denizmavi1@yahoo.com,deniz,mavi,dm,345-789-7890,234-789-7868,,12567,true,

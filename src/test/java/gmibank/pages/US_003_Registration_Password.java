@@ -9,6 +9,9 @@ public class US_003_Registration_Password {
 
     public US_003_Registration_Password() {
         PageFactory.initElements(Driver.getDriver(), this);}
+    //halloooooo
+
+
 
     @FindBy(id = "account-menu")
     public WebElement dropDown;

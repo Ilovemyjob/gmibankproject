@@ -1,4 +1,4 @@
-@registrationpage
+
 Feature: go to Registration Page
   Background: User go to GMI Bank homepage
     Given user got to GMI Bank homepage

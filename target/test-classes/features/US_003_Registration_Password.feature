@@ -1,4 +1,4 @@
-@registrationpage
+
 
 Feature: Go to Registration Page
 

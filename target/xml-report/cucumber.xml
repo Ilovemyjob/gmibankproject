@@ -1,133 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<<<<<<< HEAD
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="136.042">
-<testcase classname="Go to Registration Page" name="TC_0001 User type to New Password_There should be at least 1 uppercase char" time="22.701">
-<system-out><![CDATA[Given user got to GMI Bank homepage.........................................passed
-Given user click to dropdown button.........................................passed
-Then user click to register button..........................................passed
-And user click to New Password button.......................................passed
-Then user type New "<Aaaaaaa>"..............................................passed
-Then check the bar level....................................................passed
-Then verify level...........................................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="25.648">
+<testcase classname="Read all customer data" name="read all data coming as JSON with api" time="16.286">
+<system-out><![CDATA[Given user provides the api end point to set response using "https://www.gmibank.com/api/tp-customers".passed
+Given user is desirlializing all data to Java...............................passed
+And validate them from data set.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Go to Registration Page" name="TC_0001 User type to New Password_There should be at least 1 uppercase char 2" time="16.091">
-<failure message="" type="java.lang.AssertionError"><![CDATA[Given user got to GMI Bank homepage.........................................passed
-Given user click to dropdown button.........................................passed
-Then user click to register button..........................................passed
-And user click to New Password button.......................................passed
-Then user type New "<Aaaa>".................................................passed
-Then check the bar level....................................................passed
-Then verify level...........................................................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at gmibank.stepdefinitions.US_003_Registration_Password_sd.verify_level(US_003_Registration_Password_sd.java:82)
-	at ✽.verify level(file:///C:/Users/Administrator/IdeaProjects/gmibankproject/src/test/resources/features/US_003_Registration_Password.feature:15)
-]]></failure>
-</testcase>
-<testcase classname="Go to Registration Page" name="TC_0002 User type to New Password_There should be at least 1 lowercase char" time="17.897">
-<system-out><![CDATA[Given user got to GMI Bank homepage.........................................passed
-Given user click to dropdown button.........................................passed
-Then user click to register button..........................................passed
-And user click to New Password button.......................................passed
-Then user type New "<aAAAAAA>"..............................................passed
-Then check the bar level....................................................passed
-Then verify level...........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Go to Registration Page" name="TC_0003 User type to New Password_There should be at least 1 digit" time="12.684">
-<system-out><![CDATA[Given user got to GMI Bank homepage.........................................passed
-Given user click to dropdown button.........................................passed
-Then user click to register button..........................................passed
-And user click to New Password button.......................................passed
-Then user type New "<1aaaaaa>"..............................................passed
-Then check the bar level....................................................passed
-Then verify level...........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Go to Registration Page" name="TC_0004 User type to New Password_There should be  at least 1 special char" time="14.662">
-<system-out><![CDATA[Given user got to GMI Bank homepage.........................................passed
-Given user click to dropdown button.........................................passed
-Then user click to register button..........................................passed
-And user click to New Password button.......................................passed
-Then user type New "<.aaaaaa>"..............................................passed
-Then check the bar level....................................................passed
-Then verify level...........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Go to Registration Page" name="TC_0005 User type to New Password_There should be at least 7 chars" time="11.65">
-<system-out><![CDATA[Given user got to GMI Bank homepage.........................................passed
-Given user click to dropdown button.........................................passed
-Then user click to register button..........................................passed
-And user click to New Password button.......................................passed
-Then user type New "Aaaaaaa"................................................passed
-Then check the bar level....................................................passed
-Then verify level...........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Go to Registration Page" name="TC_0005 User type to New Password_There should be at least 7 chars 2" time="11.782">
-<failure message="" type="java.lang.AssertionError"><![CDATA[Given user got to GMI Bank homepage.........................................passed
-Given user click to dropdown button.........................................passed
-Then user click to register button..........................................passed
-And user click to New Password button.......................................passed
-Then user type New "Aaaa12".................................................passed
-Then check the bar level....................................................passed
-Then verify level...........................................................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at gmibank.stepdefinitions.US_003_Registration_Password_sd.verify_level(US_003_Registration_Password_sd.java:82)
-	at ✽.verify level(file:///C:/Users/Administrator/IdeaProjects/gmibankproject/src/test/resources/features/US_003_Registration_Password.feature:70)
-]]></failure>
-</testcase>
-<testcase classname="go to Registration Page" name="TC_0001 User should see all account types and balace populated" time="13.457">
-<system-out><![CDATA[Given user got to GMI Bank homepage.........................................passed
-And user click to dropdown button...........................................passed
-Then user click to Sign in button...........................................passed
-And user click User name button.............................................passed
-And user type Username "team21customer".....................................passed
-And user click to Password..................................................passed
-And user type Password "team21Customer".....................................passed
-Then user click Sign in.....................................................passed
-Then user click My Operation button.........................................passed
-Then user click Manage Accounts button......................................passed
-Then check all account types................................................passed
-Then check all balance......................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="go to Registration Page" name="TC_0002 User can view transaction" time="13.009">
-<system-out><![CDATA[Given user got to GMI Bank homepage.........................................passed
-And user click to dropdown button...........................................passed
-Then user click to Sign in button...........................................passed
-And user click User name button.............................................passed
-And user type Username "team21customer".....................................passed
-And user click to Password..................................................passed
-And user type Password "team21Customer".....................................passed
-Then user click Sign in.....................................................passed
-Then user click My Operation button.........................................passed
-Then user click Manage Accounts button......................................passed
-Then user view transaction..................................................passed
-=======
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="21.234">
-<testcase classname="Go to homepage" name="TC_001-007 User type several informations" time="19.954">
-<system-out><![CDATA[Given user got to GMI Bank homepage.........................................passed
-And user clik to register box...............................................passed
-And user clik to register button............................................passed
-And user clik to SSn number box and send "454-42-1223"......................passed
-And user click to first name box and send "Hans"............................passed
-And user click to last name box and send "Kern".............................passed
-And user click to address box and send "Ernst Straße 2, 17299 Hamburg"......passed
-And user click to mobile phone number box and send "404-421-2236"...........passed
-And user click to username box and send "hanskern1234"......................passed
-Then user click to email box and send "hanskern@fakemail.com"...............passed
->>>>>>> master
+<testcase classname="Read all customer data" name="read all data coming as JSON with api 2" time="7.222">
+<system-out><![CDATA[Given user provides the api end point to set response using "https://www.gmibank.com/api/tp-customers".passed
+Given user is desirlializing all data to Java...............................passed
+And validate them one by one................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

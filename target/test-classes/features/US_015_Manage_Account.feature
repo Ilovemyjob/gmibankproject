@@ -1,4 +1,4 @@
-@registrationpage
+
 Feature: go to Registration Page
   Background: User go to GMI Bank homepage
     Given user got to GMI Bank homepage
@@ -18,6 +18,7 @@ Feature: go to Registration Page
 
   Scenario:TC_0002 User can view transaction
      Then user view transaction
+
 
 
 
