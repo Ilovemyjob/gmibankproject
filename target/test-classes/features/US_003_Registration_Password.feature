@@ -9,7 +9,7 @@ Feature: Go to Registration Page
   Scenario Outline: TC_0001 User type to New Password_There should be at least 1 uppercase char
     Given user click to dropdown button
     Then user click to register button
-    And user click to New Password button
+    And user click to NewUS_003_Registration_Password Password button
     Then user type New <Password>
     Then check the bar level
     Then verify level

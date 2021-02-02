@@ -18,14 +18,14 @@ import static io.restassured.RestAssured.given;
 
 public class US_021_Read_All_Countries {
     Response response;
-    Customer[] customer;
+    Customer[] customers;
     List<String> expected;
     Country[]country;
     List<String> expectedC;
 
     @Given("user go to api end point {string}")
     public void user_go_to_api_end_point(String string) {
-        response=given().auth().oauth2(ConfigReader.getProperty("api_bearer_token")).contentType(ContentType.JSON).when()
+        response=given().auth().oauth2(ConfigReader.getProperty("token")).contentType(ContentType.JSON).when()
                 .get("https://www.gmibank.com/api/tp-countries").then().contentType(ContentType.JSON).extract().response();
 
     }
@@ -37,8 +37,8 @@ public class US_021_Read_All_Countries {
         country = objectMapper.readValue(response.asString(), Country[].class);
         for(int i=0;i<country.length;i++){
             System.out.println(country[i].getId()+" | " + country[i].getName());
-        }
-        WriteToTxt.saveAllCountryId("src\\test\\java\\gmibank\\test-data\\countryId.txt", country);
+         }
+        WriteToTxt.saveAllCountry("src\\test\\java\\gmibank\\test-data\\countryId.txt", country);
     }
     @Then("validate countries")
     public void validate_countries() {

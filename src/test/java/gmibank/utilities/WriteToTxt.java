@@ -1,5 +1,6 @@
 package gmibank.utilities;
 
+import gmibank.pojos.Country;
 import gmibank.pojos.Customer;
 import gmibank.pojos.States;
 
@@ -8,7 +9,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class WriteToTxt {
-    public static void  saveAllData(String fileName, Customer[] customers){
+    public static void  saveAllCustomers(String fileName, Customer[] customers){
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true));
             for (int i = 0; i < customers.length; i++) {
@@ -43,7 +44,7 @@ public class WriteToTxt {
 
     }
 
-    public static void  saveAllData(String fileName, States[] states){
+    public static void  saveAllCountry(String fileName, States[] states){
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true));
             for (int i = 0; i < states.length; i++) {
@@ -59,6 +60,21 @@ public class WriteToTxt {
 
 
     }
+    public static void  saveAllStates(String fileName, Country[] countries){
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true));
+            for (int i = 0; i < countries.length; i++) {
+                if (countries[i].getState()!=null)
+                    writer.append(countries[i].getState()+"\n");
 
+
+            }
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+    }
 
 }

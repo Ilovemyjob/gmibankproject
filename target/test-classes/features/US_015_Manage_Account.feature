@@ -2,7 +2,6 @@
 Feature: go to Registration Page
   Background: User go to GMI Bank homepage
     Given user got to GMI Bank homepage
-    And user click to dropdown button
     Then user click to Sign in button
     And user click User name button
     And user type Username "team21customer"
