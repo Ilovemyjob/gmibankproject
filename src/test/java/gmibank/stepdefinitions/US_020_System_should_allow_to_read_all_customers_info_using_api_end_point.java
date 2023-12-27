@@ -106,20 +106,11 @@ public class US_020_System_should_allow_to_read_all_customers_info_using_api_end
         expectedSSNs.add("234-11-8998");
         expectedSSNs.add("777-23-7777");
 
-
-
-
-
-
        List<String> allSSNs= Readtext.returnAllCustomers("src/test/java/gmibank/test_data/CustomerInfo.txt");
 
         Assert.assertTrue("All do not match", allSSNs.containsAll(expectedSSNs));
-
         System.out.println("All data validation has been successful");
-
-
     }
-
     @Given("validate them one by one")
     public void validate_them_one_by_one() {
 
@@ -145,9 +136,6 @@ public class US_020_System_should_allow_to_read_all_customers_info_using_api_end
         expectedSSNs2.add("234-11-8998");
         expectedSSNs2.add("777-23-7777");
 
-
-
-
         for (int i = 0; i < customers.length; i++) {
             if (customers[i].getSsn()!=null){
                 Assert.assertTrue(customers[i].getSsn().contains(expectedSSNs2.get(i)));
@@ -158,9 +146,6 @@ public class US_020_System_should_allow_to_read_all_customers_info_using_api_end
 
 
     }
-
-
-
 
 
 }

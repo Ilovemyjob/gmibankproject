@@ -38,7 +38,7 @@ public class US_021_Read_All_Countries {
         for(int i=0;i<country.length;i++){
             System.out.println(country[i].getId()+" | " + country[i].getName());
          }
-        WriteToTxt.saveAllCountry("src\\test\\java\\gmibank\\test-data\\countryId.txt", country);
+        WriteToTxt.saveAllStates("src\\test\\java\\gmibank\\test-data\\countryId.txt", country  );
     }
     @Then("validate countries")
     public void validate_countries() {
